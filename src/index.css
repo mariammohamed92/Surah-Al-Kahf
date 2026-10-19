@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-amiri: 'Amiri', serif;
+    --font-cairo: 'Cairo', sans-serif;
+    --font-scheherazade: 'Scheherazade New', serif;
+  }
+
+  html, body {
+    scrollbar-width: thin;
+    scrollbar-color: #d946ef #180724;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ec4899 #180724;
+  }
+}
+
+.font-quran {
+  font-family: var(--font-scheherazade), var(--font-amiri), serif;
+}
+
+.font-cairo {
+  font-family: var(--font-cairo), sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #180724;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ec4899 0%, #d946ef 50%, #9333ea 100%);
+  border-radius: 9999px;
+  border: 2px solid #180724;
+  box-shadow: 0 0 10px rgba(236, 72, 153, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #f472b6 0%, #ec4899 50%, #a855f7 100%);
+  box-shadow: 0 0 15px rgba(236, 72, 153, 0.8);
+}
+
+.bg-islamic-pattern {
+  background-image: radial-gradient(rgba(236, 72, 153, 0.08) 1.5px, transparent 1.5px), radial-gradient(rgba(168, 85, 247, 0.08) 1.5px, #120719 1.5px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
