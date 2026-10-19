@@ -1,9 +1,16 @@
+import quranImg from '../assets/images/quran.jpg';
+import caveImg from '../assets/images/cave.jpg';
+import seasImg from '../assets/images/seas.jpg';
+import gardensImg from '../assets/images/gardens.jpg';
+import damImg from '../assets/images/dam.jpg';
+
+
 export const KAHF_SLIDES = [
   {
     id: 'intro',
     slideNumber: 1,
     title: 'مقدمة سورة الكهف',
-    image: '/src/assets/images/quran.jpg',
+    image: quranImg,
     content: [
       {
         type: 'heading',
@@ -27,12 +34,12 @@ export const KAHF_SLIDES = [
     id: 'virtues-and-revelation',
     slideNumber: 2,
     title: 'فضل سورة الكهف وسبب نزولها ومناسباتها',
-    image: '/src/assets/images/cave.jpg',
+    image: caveImg,
     sections: [
       {
         id: 'virtues',
         title: 'فضل سورة الكهف',
-        image: '/src/assets/images/quran.jpg',
+        image: quranImg,
         texts: [
           'أولا: أنها تعطي خريطة شاملة للنجاة من الفتن وتحقيق رضا الله.',
           'ثانيا: جاء عن النبي صلى الله عليه وسلم أنه قال «مَنْ حَفِظَ عَشْرَ آيَاتٍ مِنْ أَوَّلِ سُورَةِ الْكَهْفِ عُصِمَ مِنَ الدَّجَّالِ».',
@@ -43,7 +50,7 @@ export const KAHF_SLIDES = [
       {
         id: 'revelation',
         title: 'سبب نزول سورة الكهف',
-        image: '/src/assets/images/cave.jpg',
+        image: caveImg,
         texts: [
           'سورة الكهف مكية، آياتها 110 آية. نزلت في مكة قبل الهجرة إلى الحبشة، حيث لقي الرسول صلى الله عليه وسلم ومن آمن معه كثيرا من المحن والابتلاءات وإثارة الشبهات وطرح أسئلة معقدة، يريدون من ورائها تشكيك المسلمين بدينهم وتعجيز رسول الله صلى الله عليه وسلم.',
           'فجاءت السورة تسلية وتثبيتا لقلب النبي صلى الله عليه وسلم، وتطمينا للمستضعفين من خلال قصص السورة؛ قصة أصحاب الكهف وقصة ذي القرنين، بأن الله ينصر المؤمنين مهما طال البلاء.'
@@ -52,7 +59,7 @@ export const KAHF_SLIDES = [
       {
         id: 'beginning-end',
         title: 'مناسبة فاتحة السورة لخاتمتها',
-        image: '/src/assets/images/quran.jpg',
+        image: quranImg,
         texts: [
           'بدأت السورة بالحمد على إنزال الكتاب، وختمت بالدعوة إلى العمل لتحقيق الغاية التي أنزل الله من أجلها الكتاب. قال الله تعالى ﴿فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا﴾.',
           'وأيضا بدأت سورة الكهف بـ﴿ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ﴾ وانتهت بذكر القرآن ﴿قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى﴾ لتوصيل رسالة للمؤمنين بأن القرآن هو الملجأ والعاصم الوحيد من الفتن كلها.'
@@ -61,7 +68,7 @@ export const KAHF_SLIDES = [
       {
         id: 'israa',
         title: 'مناسبة افتتاحية سورة الكهف لما قبلها',
-        image: '/src/assets/images/seas.jpg',
+        image: seasImg,
         texts: [
           'اختتمت سورة الإسراء بحمد الله سبحانه وتعالى وتكبيره، قال تعالى ﴿وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّ مِّنَ ٱلذُّلِّ وَكَبِّرْهُ تَكْبِيرًا﴾ وبدأت سورة الكهف بالحمد: ﴿ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ﴾.',
           'فسورة الإسراء أشارت إلى تلك الرحلة العجيبة التي أكرم الله بها نبيه محمدا صلى الله عليه وسلم في رحلة الإسراء، وجاءت سورة الكهف بالحديث عن رحلات أخرى عجيبة، منها رحلة أصحاب الكهف وموسى والخضر وذي القرنين. وإذا كانت آية الإسراء آية عجيبة ومعجزة باهرة، فإن إنزال الكتاب هو الآية العجاب والمعجزة الكبرى التي منّ الله بها على الإنسانية.'
@@ -73,13 +80,13 @@ export const KAHF_SLIDES = [
     id: 'axes',
     slideNumber: 3,
     title: 'محاور سورة الكهف',
-    image: '/src/assets/images/gardens.jpg',
+    image: gardensImg,
     introText: 'العنصر الغالب على السورة هو القصص، والخط الذي يربط بين القصص كلها هو موضوع الفتنة.',
     sections: [
       {
         id: 'axis-1',
         title: 'المحور الأول',
-        image: '/src/assets/images/quran.jpg',
+        image: quranImg,
         texts: [
           'المحور الأول: المقدمة التي تبدأ بالحمد ﴿ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَنزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَٰبَ﴾ وتبشير للمؤمنين.'
         ]
@@ -87,7 +94,7 @@ export const KAHF_SLIDES = [
       {
         id: 'axis-2',
         title: 'المحور الثاني',
-        image: '/src/assets/images/cave.jpg',
+        image: caveImg,
         texts: [
           'المحور الثاني: فتنة الدين من خلال قصة أصحاب الكهف.'
         ]
@@ -95,7 +102,7 @@ export const KAHF_SLIDES = [
       {
         id: 'axis-3',
         title: 'المحور الثالث',
-        image: '/src/assets/images/gardens.jpg',
+        image: gardensImg,
         texts: [
           'المحور الثالث: فتنة المال من خلال قصة صاحب الجنتين.'
         ]
@@ -103,7 +110,7 @@ export const KAHF_SLIDES = [
       {
         id: 'axis-4',
         title: 'المحور الرابع',
-        image: '/src/assets/images/seas.jpg',
+        image: seasImg,
         texts: [
           'المحور الرابع: قصة موسى والخضر وفتنة العلم.'
         ]
@@ -111,7 +118,7 @@ export const KAHF_SLIDES = [
       {
         id: 'axis-5',
         title: 'المحور الخامس',
-        image: '/src/assets/images/dam.jpg',
+        image: damImg,
         texts: [
           'المحور الخامس: قصة ذي القرنين وفتنة السلطة.',
           'وبيّنت القصة أن السلطة قد تكون فتنة وبلاء عند من يستخدمها لمصالحه الشخصية والتعالي على الناس وظلمهم، ويشعر بالاستغناء عن الله سبحانه وتعالى، كما فعل فرعون حيث قال ﴿يَٰقَوْمِ أَلَيْسَ لِى مُلْكُ مِصْرَ وَهَٰذِهِ ٱلْأَنْهَٰرُ تَجْرِى مِن تَحْتِى﴾.'
@@ -123,7 +130,7 @@ export const KAHF_SLIDES = [
     id: 'dhul-qarnayn-intro',
     slideNumber: 4,
     title: 'مقدمة الفقرة القرآنية',
-    image: '/src/assets/images/dam.jpg',
+    image: damImg,
     content: [
       {
         type: 'text',
@@ -135,7 +142,7 @@ export const KAHF_SLIDES = [
     id: 'dhul-qarnayn-conclusion',
     slideNumber: 5,
     title: 'خاتمة الفقرة القرآنية',
-    image: '/src/assets/images/quran.jpg',
+    image: quranImg,
     content: [
       {
         type: 'text',
@@ -147,7 +154,7 @@ export const KAHF_SLIDES = [
     id: 'practical-application',
     slideNumber: 6,
     title: 'إسقاط القصة على الواقع',
-    image: '/src/assets/images/cave.jpg',
+    image: caveImg,
     content: [
       {
         type: 'text',
